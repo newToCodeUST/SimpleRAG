@@ -28,7 +28,7 @@ left, center, right = st.columns(3)
 
 # Display the logo in the middle column
 with center:
-    st.image("your_logo_path.png", width=250)
+    st.image("logo.png", width=300)
 
 # 1. Initialize session states
 if "vector_db" not in st.session_state:
