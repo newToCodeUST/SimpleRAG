@@ -115,6 +115,6 @@ if query := st.chat_input("Ask a question about your documents..."):
                 st.write(response)
 
                 # 3. Save assistant response to session state history
-                st.session_state.messages.append({"role": "assistant", "content": response})"""
+                st.session_state.messages.append({"role": "assistant", "content": response})
                 
 
