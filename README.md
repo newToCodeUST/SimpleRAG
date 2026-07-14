@@ -6,7 +6,7 @@ SimpleRAG is a lightweight, AI-powered knowledge base chatbot. It provides a min
 
 *   **Frontend UI:** [Streamlit](https://streamlit.io) — Powers the minimalist, interactive web chat interface.
 *   **LLM Engine:** [OpenAI SDK] via [OpenRouter](https://openrouter.ai) — Handles text generation and embedding models with flexible model routing.
-*   **Infrastructure:** [Google Colab](https://google.com) — Hosts the backend and frontend logic, using a public URL tunnel to expose local port `8501` to the internet.
+*   **Infrastructure:** The web application was deployed to Streamlit Community Cloud.
 
 ## ✨ Core Functionality
 
