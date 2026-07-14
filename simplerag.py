@@ -18,8 +18,17 @@ pip install python-dotenv -q
 import LLM_Helper
 import streamlit as st
 
-st.title("hke rag lvl1")
-st.write("demo")
+st.title("SimpleRAG")
+st.write("This user-friendly RAG web app demo, developed by hjwu, lets you chat with your customized knowledge base.")
+
+import streamlit as st
+
+# Create 3 columns
+left, center, right = st.columns(3)
+
+# Display the logo in the middle column
+with center:
+    st.image("your_logo_path.png", width=250)
 
 # 1. Initialize session states
 if "vector_db" not in st.session_state:
